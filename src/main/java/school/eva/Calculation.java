@@ -10,4 +10,7 @@ public final class Calculation {
     public static double calculateCapital(double rate, double interest){
         return interest * 100 / rate;
     }
+    public static double reversePercentage(double capital, double interestRate){
+        return capital / ((100 - interestRate) / 100);
+    }
 }
